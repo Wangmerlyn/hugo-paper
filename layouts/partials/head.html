@@ -84,3 +84,6 @@
   <!---->
   {{ end }}
 </head>
+
+<!-- KaTex-->
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
